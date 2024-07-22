@@ -1,10 +1,10 @@
 ## Study Case / NODE.JS / REACT / PYTHON
 
-### Description
+### Descrição
 Este projeto consiste em uma aplicação web completa que implementa um sistema de CRUD (Create, Read, Update, Delete) para gerenciar dados de motos. O sistema é dividido em duas partes principais: o front-end, desenvolvido com React, e o back-end, desenvolvido com Node.js e Express. Além disso, há scripts em Python para extrair dados de produto conectando na API da HUBSPOT
 
 
-### Objective
+### Objetivo
 O objetivo deste projeto é fornecer uma interface amigável para a gestão de informações sobre motos, permitindo que os usuários possam adicionar, visualizar, atualizar e deletar registros. O sistema também suporta filtros avançados para facilitar a busca por motos específicas, além de incluir validações e mensagens de erro para melhorar a experiência do usuário.
 
 
@@ -125,4 +125,6 @@ Aqui está o [[API Documentation Link](https://documenter.getpostman.com/view/26
 -Atualizar os detalhes de uma moto existente
 -Excluir uma moto pelo ID
 
+
+## Consideraçoes finais
 
