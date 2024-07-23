@@ -254,6 +254,7 @@ export function Moto() {
         </Tbody>
       </Table>
       <Modal
+        style={{content:{padding: '0', outline: 'none!important', width: '50%', height: '70%', margin: 'auto', border: 'none'}}}
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         contentLabel="Add New Moto"
@@ -305,3 +306,4 @@ export function Moto() {
     </Post>
   );
 }
+

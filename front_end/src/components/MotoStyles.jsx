@@ -13,7 +13,6 @@ export const Post = styled.article`
 
 export const Header = styled.div`
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 `;
@@ -49,6 +48,8 @@ export const AddButton = styled.button`
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 5px;
+  margin-left: auto;
+  margin-right: 1rem;
 
   &:hover {
     background-color: #218838;
@@ -59,8 +60,9 @@ export const ModalContent = styled.div`
   padding: 20px;
   background: var(--gray-800);
   border-radius: 10px;
-  max-width: 600px;
   margin: auto;
+  width: 100%;
+  height: 100%;
 `;
 
 export const Filters = styled.div`
@@ -136,7 +138,7 @@ export const DeleteButton = styled.button`
   padding: 5px 10px;
   cursor: pointer;
   border-radius: 5px;
-  margin-left: 5px;
+  margin-left: 1rem;
 
   &:hover {
     background-color: #c82333;
@@ -150,7 +152,7 @@ export const EditButton = styled.button`
   padding: 5px 10px;
   cursor: pointer;
   border-radius: 5px;
-  margin-right: 5px;
+  margin-right: 1rem;
 
   &:hover {
     background-color: #e0a800;
