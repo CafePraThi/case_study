@@ -136,6 +136,9 @@ export function Moto() {
     } else {
       axios.post(API_URL, newMoto)
         .then(response => {
+          console.log(response);
+          console.log(response.data);
+          console.log(newMoto);
           setModalIsOpen(false);
           toast.success('Moto criada com Sucesso!');
           return axios.get(API_URL);
